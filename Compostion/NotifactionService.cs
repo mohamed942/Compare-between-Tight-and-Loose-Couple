@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Compostion
+namespace Tight_Couple
 {
     public  class NotifactionService
     {
-        private readonly mailService _mailService;
+        private readonly MailService _mailService;
         private readonly SmsService _smsService;
-        public NotifactionService(mailService mailService, SmsService smsService)
+        public NotifactionService(MailService mailService, SmsService smsService)
         {
             _mailService = mailService;
             _smsService = smsService;

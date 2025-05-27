@@ -1,6 +1,6 @@
-﻿namespace Compostion
+﻿namespace Tight_Couple
 {
-    public class mailService
+    public class MailService
     {
         public void send() {
             Console.WriteLine("mail sent"); 
